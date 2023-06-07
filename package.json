@@ -1,0 +1,22 @@
+{
+  "name": "webtag_project",
+  "version": "1.0.0",
+  "description": "goodday",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/init.js",
+    "dev:server": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/node": "^7.22.1",
+    "@babel/preset-env": "^7.22.4",
+    "express": "^4.18.2",
+    "flash": "^1.1.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "pug": "^3.0.2"
+  }
+}
